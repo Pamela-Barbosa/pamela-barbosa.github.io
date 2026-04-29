@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.projeto{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+   
+}
+.tituloProjeto{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #c53ebe;
+}
